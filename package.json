@@ -5,8 +5,13 @@
   "type":"module",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+     "build": "react-scripts build",
+    "install": "npm install --legacy-peer-deps",
+
   },
+  
+
   "keywords": [],
   "author": "",
   "license": "ISC",
