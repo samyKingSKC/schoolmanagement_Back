@@ -9,8 +9,8 @@ const PORT = process.env.PORT || 3000
 DB();
 app.use(
   cors({
-    origin: "https://school-website-and-management-k8ru.vercel.app",
-  }),
+    origin: "http://localhost:5173",
+  })
 );
 app.use(express.json())
 app.use(globalMiddleware);
